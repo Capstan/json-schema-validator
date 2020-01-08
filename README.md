@@ -1,7 +1,7 @@
 [![License LGPLv3][LGPLv3 badge]][LGPLv3]
 [![License ASL 2.0][ASL 2.0 badge]][ASL 2.0]
 [![Build Status][Travis badge]][Travis]
-![Maven Central](https://img.shields.io/maven-central/v/com.github.java-json-tools/json-schema-validator.svg)
+[![Maven Central][Maven Central badge]][Maven]
 
 ## Read me first
 
@@ -38,7 +38,7 @@ run by yourself.
 
 ## Versions
 
-* current stable version: **2.2.12**
+* current stable version: **2.2.13**
   ([ChangeLog](https://github.com/java-json-tools/json-schema-validator/wiki/ChangeLog_22x),
   [Javadoc](http://java-json-tools.github.io/json-schema-validator/2.2.x/index.html), [code
   samples](http://java-json-tools.github.io/json-schema-validator/2.2.x/index.html?com/github/fge/jsonschema/examples/package-summary.html)).
@@ -57,7 +57,7 @@ Gradle:
 
 ```groovy
 dependencies {
-    compile(group: "com.github.java-json-tools", name: "json-schema-validator", version: "2.2.12");
+    compile(group: "com.github.java-json-tools", name: "json-schema-validator", version: "2.2.13");
 }
 ```
 
@@ -67,7 +67,7 @@ Maven:
 <dependency>
     <groupId>com.github.java-json-tools</groupId>
     <artifactId>json-schema-validator</artifactId>
-    <version>2.2.12</version>
+    <version>2.2.13</version>
 </dependency>
 ```
 
@@ -111,3 +111,5 @@ details.
 [ASL 2.0]: http://www.apache.org/licenses/LICENSE-2.0.html
 [Travis Badge]: https://api.travis-ci.org/java-json-tools/json-schema-validator.svg?branch=master
 [Travis]: https://travis-ci.org/java-json-tools/json-schema-validator
+[Maven Central badge]: https://img.shields.io/maven-central/v/com.github.java-json-tools/json-schema-validator.svg
+[Maven]: https://search.maven.org/artifact/com.github.java-json-tools/json-schema-validator
